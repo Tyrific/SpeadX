@@ -1,3 +1,8 @@
+.center {
+    text-align:center;
+    text-decoration:underline;
+    color:brown;
+}
 .h1_1 {
     animation-name:h1_1_animation_1;
     animation-iteration-count: infinite;
