@@ -1,0 +1,124 @@
+.h1_1 {
+    animation-name:h1_1_animation_1;
+    animation-iteration-count: infinite;
+    animation-duration:1s;
+    font-size:36px;
+    
+}
+@keyframes h1_1_animation_1
+ {
+    0%{font-family:Franklin Gothic Medium; font-style:italic;}
+    50%{font-size:32px; color:red; font-style:normal;}
+    100%{font-family:Franklin Gothic Medium; font-style:italic;}
+}
+.audio1 {
+    text-align: center;
+    color:red;
+}
+.orange {
+    color:orange;
+}
+header {
+    text-align:center;
+}
+button {
+ font-family:Helvetica;
+}
+
+button.hover {
+
+}
+
+button.active {
+    
+}
+.warning1 {
+    font-style:bolder;
+    color:red;
+}
+
+
+.aside {
+    transition:2s;
+    text-align:left;
+    border-radius:12px;
+    border-style:solid;
+    border-color:orange;
+    border-width:10px;
+    margin-right:1600px;
+    font-family:cursive;
+    font-style:italic;
+    font-size:18px;
+}
+.aside:hover {
+    
+    
+    font-size:24px;
+    border-width:20px;
+    border-radius:24px;
+}
+
+.aside2 {
+    color:orangered;
+    transition:2s;
+    text-align:center;
+    border-radius:12px;
+    border-style:solid;
+    border-color:blue;
+    border-width:10px;
+    font-family:cursive;
+    font-style:italic;
+    font-size:18px;
+    
+}
+.aside2:hover {
+    
+    
+    font-size:24px;
+    border-width:20px;
+    border-radius:24px;
+}
+
+body {
+background-image:url(speadx_logo.png);
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment:local;
+background-repeat: repeat-y;
+background-color:border red;
+}
+.red {
+border-style:solid;
+
+}
+
+.logo {
+
+    animation-name:logo_change;
+    animation-duration: 8s;
+    animation-iteration-count:infinite;
+    border-radius:30px;
+border-style:solid;
+border-color:teal;
+border-spacing:10px;
+text-align: center;
+border-width:10px 10px 10px 10px;
+    text-align:center;
+     margin-left:525px;
+     margin-right:525px;
+     margin-top:300px;
+  }  
+
+    @keyframes logo_change {
+    0%{ color:black; justify-content:center; margin-top:300; background-color:red;}
+    16%{background-color:orange; color:white}
+    25%{color:black;  justify-content:center;rotate:45deg; margin-top:300px;}
+    32%{background-color:yellow;color:white;}
+    48%{background-color:green; color:black;}
+    50%{color:white; justify-content:center;rotate:0deg; margin-top:300px;}
+    64%{background-color:blue; color:black;}
+    75%{color:white; justify-content:center;rotate:-45deg; margin-top:300px;}
+    80%{background-color:purple; color:black;}
+    100% {color:black; justify-content:center;  rotate:0deg; margin-top:300px;background-color:red;}
+    
+    }
