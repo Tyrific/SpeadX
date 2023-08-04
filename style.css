@@ -1,3 +1,12 @@
+.iframe_video {
+
+    width:960px;
+    height:540px;
+    border-radius:10px;
+    border-color:black;
+    border-width:10px;
+
+}
 .center {
     text-align:center;
     text-decoration:underline;
