@@ -1,3 +1,8 @@
+.h2_2 {
+    text-align:center;
+    color:aqua;
+    text-decoration:bold;
+}
 .h2_1 {
     border-bottom:dashed;
     border-bottom-color:blue;
