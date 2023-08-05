@@ -1,10 +1,30 @@
-.iframe_video {
+.h2_1 {
+    border-bottom:dashed;
+    border-bottom-color:blue;
+    width: 98%;
+    text-align:center;
+    margin:0 auto;
+    font-family:sans-serif;
+    text-decoration:bold;
+    color:orange;
+    margin-bottom:1%;
+}
+.fixedmenu {
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 1200px; 
+    font-size:2em;
+    left:0;  
+}
 
-    width:960px;
-    height:540px;
+.iframe_video {
+    margin-top:300px;
+    
     border-radius:10px;
     border-color:black;
     border-width:10px;
+    margin:0 auto;
 
 }
 .center {
@@ -16,7 +36,7 @@
     animation-name:h1_1_animation_1;
     animation-iteration-count: infinite;
     animation-duration:1s;
-    font-size:36px;
+    font-size:33px;
     
 }
 @keyframes h1_1_animation_1
@@ -36,16 +56,15 @@ header {
     text-align:center;
 }
 button {
- font-family:Helvetica;
+    font-family:Helvetica;
+    text-decoration:bold;
 }
 
 button.hover {
-
+color:green;
 }
 
-button.active {
-    
-}
+
 .warning1 {
     font-style:bolder;
     color:red;
@@ -60,9 +79,10 @@ button.active {
     border-color:orange;
     border-width:10px;
     margin-right:1600px;
-    font-family:cursive;
     font-style:italic;
     font-size:18px;
+    font-weight:bold;
+     padding-right: calc(100px + (100vw - 700px) * (15 - 30) / (700 -  200));
 }
 .aside:hover {
     
@@ -112,27 +132,26 @@ border-style:solid;
     animation-duration: 8s;
     animation-iteration-count:infinite;
     border-radius:30px;
-border-style:solid;
-border-color:teal;
-border-spacing:10px;
-text-align: center;
-border-width:10px 10px 10px 10px;
+    border-style:solid;
+    border-color:teal;
+    width:50%;
+    
+    border-width:10px 10px 10px 10px;
     text-align:center;
-     margin-left:525px;
-     margin-right:525px;
+     margin:0 auto;
      margin-top:300px;
   }  
 
     @keyframes logo_change {
-    0%{ color:black; justify-content:center; margin-top:300; background-color:red;}
+    0%{ color:black;   background-color:red;}
     16%{background-color:orange; color:white}
-    25%{color:black;  justify-content:center;rotate:45deg; margin-top:300px;}
+    25%{color:black;  rotate:45deg; }
     32%{background-color:yellow;color:white;}
     48%{background-color:green; color:black;}
-    50%{color:white; justify-content:center;rotate:0deg; margin-top:300px;}
+    50%{color:white; rotate:0deg; }
     64%{background-color:blue; color:black;}
-    75%{color:white; justify-content:center;rotate:-45deg; margin-top:300px;}
+    75%{color:white; rotate:-45deg; }
     80%{background-color:purple; color:black;}
-    100% {color:black; justify-content:center;  rotate:0deg; margin-top:300px;background-color:red;}
+    100% {color:black;   rotate:0deg; ;background-color:red;}
     
     }
